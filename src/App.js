@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import CategoryComponent from './components/CategoryComponent';
+import ExpenseItemComponent from './components/ExpenseItemComponent';
+import WalletDetailPage from './pages/WalletDetailPage';
+import { BudgetProvider } from './context/BudgetContext';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BudgetProvider>
+      <Router>
+        <div className="app-container">
+          <header>
+            <h1>BudgetMaster</h1>
+            <p>Your ultimate tool for managing budgets effectively and efficiently.</p>
+          </header>
+          <main>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/categories" element={<CategoryComponent />} />
+              <Route path="/expenses" element={<ExpenseItemComponent />} />
+              <Route path="/wallet/:id" element={<WalletDetailPage />} />
+            </Routes>
+          </main>
+        </div>
+      </Router>
+    </BudgetProvider>
   );
 }
 

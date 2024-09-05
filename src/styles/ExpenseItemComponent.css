@@ -1,0 +1,21 @@
+.expense-items-page {
+    padding: 20px;
+  }
+  
+  .expense-items-page input, .expense-items-page select {
+    margin: 10px 0;
+  }
+  
+  .expense-items-page button {
+    margin: 10px 0;
+  }
+  
+  .expense-items-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expense-items-page li {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,71 @@
+.home-page {
+    padding: 20px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.home-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home-page input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.home-page button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.home-page button:hover {
+    background-color: #0056b3;
+}
+
+.home-page ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home-page li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f9fa; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+.home-page li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.home-page li button svg {
+    color: #ff8c8c; 
+    vertical-align: middle;
+}
+
+.home-page li button:hover svg {
+    color: #ff0000;
+}
+
+.home-page a {
+    text-decoration: none; 
+    color: inherit; 
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.home-page a:hover {
+    color: #007bff; 
+}

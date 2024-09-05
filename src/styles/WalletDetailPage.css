@@ -1,0 +1,46 @@
+.wallet-detail-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wallet-detail-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .wallet-detail-page input[type="text"],
+  .wallet-detail-page input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .wallet-detail-page button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .wallet-detail-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .wallet-detail-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wallet-detail-page li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .wallet-detail-page .update-wallet {
+    margin-bottom: 20px;
+  }
+  
+  .wallet-detail-page button svg {
+    vertical-align: middle;
+  }
+  

@@ -1,0 +1,35 @@
+.category-component {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .category-component h2 {
+    margin-top: 0;
+  }
+  
+  .category-component input {
+    margin-right: 10px;
+  }
+  
+  .category-component button {
+    background-color: #17a2b8;
+  }
+  
+  .category-component button:hover {
+    background-color: #138496;
+  }
+  
+  .category-component ul {
+    padding: 0;
+  }
+  
+  .category-component li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
